@@ -8,6 +8,8 @@
 html {
     scroll-behavior: smooth;
     /* font-size: clamp(14px, 1vw, 16px); */
+     filter: contrast(1.1) brightness(1.1);
+
 }
 
 body {
