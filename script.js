@@ -1,3 +1,13 @@
+/// Typed.js
+var typed = new Typed('#element', {
+    strings: ['Web developer.','Programmer.'],
+    typeSpeed: 120,
+    backSpeed: 100,
+    backDelay: 1300,
+    startDelay: 400,
+     loop: true,
+  });
+
 // Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
@@ -99,8 +109,3 @@ document.querySelectorAll('.skill-card, .project-card').forEach(element => {
     element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
 }); 
 
-// Typed.js
-var typed = new Typed('#element', {
-    strings: ['Web developer.','Programmer.'],
-    typeSpeed: 50,
-  });

@@ -15,7 +15,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: rgba(0, 255, 255, 0.623); 
+    color: white;
     font-size: 1.2rem;
     background-image: url('bgimage/bgimage.jpg');
     background-size: cover;
@@ -197,15 +197,25 @@ body::before {
     margin-bottom: 1rem;
 }
 
+#element {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    min-height: 3.5rem; /* Reserve space to prevent layout jump */
+}
+
+
+
 .highlight {
     color: #04f291;
 }
 
 .home-content h2 {
     font-size: 1.5rem;
-    color: rgba(0, 255, 255, 0.623);
+    color: white;
     margin-bottom: 1rem;
 }
+
 
 /* Section Styles */
 section {

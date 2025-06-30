@@ -6,7 +6,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
+   </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -27,9 +27,10 @@
 
     <!-- Home Section -->
     <section id="home" class="home">
-        <div class="home-content">
+        <div  class="home-content">
             <h1>Hi, I'm <span class="highlight">Aryan</span> </h1>
-           <h1><span id="element"></span></h1>
+           <h1><span id="element" class="highlight"></span></h1>
+             <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
             <h2>Computer Science Student</h2>
             <p>Passionate about creating innovative solutions through code</p>
             <div class="home-buttons">
@@ -142,14 +143,14 @@
         <h2 class="section-title">Contact Me</h2>
         <div class="contact-container">
            <form name="Contact-Form" method="POST" data-netlify="true" >
-             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required>
+             <label for="name" class="form-group">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required class="form-group">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="email" class="form-group">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required class="form-group">
                                        
-           <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+           <label for="message" class="form-group">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Message" required class="form-group"></textarea>
                    
 
            <button type="submit" class="submit-btn">Send</button>
@@ -167,7 +168,7 @@
         <p>&copy; 2024 Aryan. All rights reserved.</p>
     </footer>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
     <script src="script.js"></script>
 </body>
 </html> 
